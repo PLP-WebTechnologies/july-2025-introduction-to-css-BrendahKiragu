@@ -1,0 +1,87 @@
+body {
+  margin: 0; /* Removes default browser margins */
+  padding: 0; /* Removes default browser padding */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #102ec5;
+  color: black;
+}
+
+/* HEADER STYLES */
+.site-header {
+  background-color: #033d04;
+  color: white; /* Text color */
+  padding: 20px; /* Inner space between text and the edge of the box */
+  border: 8px solid red;
+}
+
+.nav-list {
+  list-style: none; /* Remove default bullet points */
+  display: flex; /* Aligns the list items in a row */
+  gap: 30px; /* Space between flex items*/
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: red;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/* SECTION STYLES */
+.intro,
+.cards,
+.cta {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc; /* Border surrounding padding and content */
+  border-radius: 5px; /* Rounds the border corners */
+}
+
+/* CARD STYLES */
+.cards {
+  display: flex;
+  gap: 24px; /* Space between cards (outside each card’s border) */
+}
+
+.card {
+  background-color: yellow;
+  padding: 15px; /* Space between text and card border */
+  border: 2px solid #fa8787;
+  border-radius: 5px;
+  width: 45%; /* Width of content area (before adding border/padding) */
+  box-sizing: border-box;
+  /* box-sizing: border-box means padding and border are included in width/height,
+       preventing the card from growing larger than intended */
+}
+
+/* CALL-TO-ACTION (CTA) */
+.cta-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px; /* Vertical padding 10px, horizontal 20px */
+  margin-top: 10px; /* Space between paragraph and button */
+  border: none; /* Removes default button border */
+  cursor: pointer; /* Pointer icon on hover */
+}
+
+.cta-button:hover {
+  background-color: maroon;
+}
+
+/* FOOTER STYLES */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px; /* Inner space between footer text and edges */
+  margin-top: 20px; /* Space above footer */
+}
